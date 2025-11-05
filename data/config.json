@@ -1,0 +1,1134 @@
+{
+  "season_length": 36,
+  "initial_player": {
+    "name": "Eric Miles",
+    "age": 18,
+    "skills": {
+      "driving": 55,
+      "approach": 52,
+      "short_game": 50,
+      "putting": 51
+    },
+    "fatigue_physical": 10,
+    "fatigue_mental": 5,
+    "form": 50,
+    "money": 1500,
+    "reputation": 5,
+    "motivation": 55
+  },
+  "training": {
+    "physical_fatigue": 12,
+    "mental_fatigue": 8,
+    "cost": 200,
+    "skill_increase": 3
+  },
+  "rest": {
+    "physical_recovery": 18,
+    "mental_recovery": 14,
+    "form_gain": 7
+  },
+  "tournament": {
+    "physical_fatigue": 22,
+    "mental_fatigue": 15,
+    "entry_fee": 250,
+    "motivation_per_1000": 0.7,
+    "motivation_per_reputation": 0.8,
+    "motivation_loss_on_miss": 7
+  },
+  "agent_chat": {
+    "motivation_boost": 7,
+    "mental_recovery": 6
+  },
+  "season_players": [
+    {
+      "player_id": "P001",
+      "name": "Scottie Scheffler"
+    },
+    {
+      "player_id": "P002",
+      "name": "Rory McIlroy"
+    },
+    {
+      "player_id": "P003",
+      "name": "Xander Schauffele"
+    },
+    {
+      "player_id": "P004",
+      "name": "Russell Henley"
+    },
+    {
+      "player_id": "P005",
+      "name": "Tommy Fleetwood"
+    },
+    {
+      "player_id": "P006",
+      "name": "J.J. Spaun"
+    },
+    {
+      "player_id": "P007",
+      "name": "Robert MacIntyre"
+    },
+    {
+      "player_id": "P008",
+      "name": "Justin Thomas"
+    },
+    {
+      "player_id": "P009",
+      "name": "Justin Rose"
+    },
+    {
+      "player_id": "P010",
+      "name": "Collin Morikawa"
+    },
+    {
+      "player_id": "P011",
+      "name": "Viktor Hovland"
+    },
+    {
+      "player_id": "P012",
+      "name": "Ben Griffin"
+    },
+    {
+      "player_id": "P013",
+      "name": "Harris English"
+    },
+    {
+      "player_id": "P014",
+      "name": "Keegan Bradley"
+    },
+    {
+      "player_id": "P015",
+      "name": "Ludvig Aberg"
+    },
+    {
+      "player_id": "P016",
+      "name": "Sepp Straka"
+    },
+    {
+      "player_id": "P017",
+      "name": "Alex Noren"
+    },
+    {
+      "player_id": "P018",
+      "name": "Hideki Matsuyama"
+    },
+    {
+      "player_id": "P019",
+      "name": "Cameron Young"
+    },
+    {
+      "player_id": "P020",
+      "name": "Maverick McNealy"
+    },
+    {
+      "player_id": "P021",
+      "name": "Tyrrell Hatton"
+    },
+    {
+      "player_id": "P022",
+      "name": "Patrick Cantlay"
+    },
+    {
+      "player_id": "P023",
+      "name": "Bryson DeChambeau"
+    },
+    {
+      "player_id": "P024",
+      "name": "Sam Burns"
+    },
+    {
+      "player_id": "P025",
+      "name": "Shane Lowry"
+    },
+    {
+      "player_id": "P026",
+      "name": "Chris Gotterup"
+    },
+    {
+      "player_id": "P027",
+      "name": "Corey Conners"
+    },
+    {
+      "player_id": "P028",
+      "name": "Matt Fitzpatrick"
+    },
+    {
+      "player_id": "P029",
+      "name": "Marco Penge"
+    },
+    {
+      "player_id": "P030",
+      "name": "Aaron Rai"
+    },
+    {
+      "player_id": "P031",
+      "name": "Max Greyserman"
+    },
+    {
+      "player_id": "P032",
+      "name": "Brian Harman"
+    },
+    {
+      "player_id": "P033",
+      "name": "Wyndham Clark"
+    },
+    {
+      "player_id": "P034",
+      "name": "Kurt Kitayama"
+    },
+    {
+      "player_id": "P035",
+      "name": "Andrew Novak"
+    },
+    {
+      "player_id": "P036",
+      "name": "Sungjae Im"
+    },
+    {
+      "player_id": "P037",
+      "name": "Michael Kim"
+    },
+    {
+      "player_id": "P038",
+      "name": "Akshay Bhatia"
+    },
+    {
+      "player_id": "P039",
+      "name": "Ryan Fox"
+    },
+    {
+      "player_id": "P040",
+      "name": "Billy Horschel"
+    },
+    {
+      "player_id": "P041",
+      "name": "Nick Taylor"
+    },
+    {
+      "player_id": "P042",
+      "name": "Michael Brennan"
+    },
+    {
+      "player_id": "P043",
+      "name": "Rasmus Hojgaard"
+    },
+    {
+      "player_id": "P044",
+      "name": "Patrick Reed"
+    },
+    {
+      "player_id": "P045",
+      "name": "Taylor Pendrith"
+    },
+    {
+      "player_id": "P046",
+      "name": "Min Woo Lee"
+    },
+    {
+      "player_id": "P047",
+      "name": "Jason Day"
+    },
+    {
+      "player_id": "P048",
+      "name": "Samuel Stevens"
+    },
+    {
+      "player_id": "P049",
+      "name": "Thomas Detry"
+    },
+    {
+      "player_id": "P050",
+      "name": "Matt McCarty"
+    },
+    {
+      "player_id": "P051",
+      "name": "Ryan Gerard"
+    },
+    {
+      "player_id": "P052",
+      "name": "Daniel Berger"
+    },
+    {
+      "player_id": "P053",
+      "name": "John Keefer"
+    },
+    {
+      "player_id": "P054",
+      "name": "J.T. Poston"
+    },
+    {
+      "player_id": "P055",
+      "name": "Harry Hall"
+    },
+    {
+      "player_id": "P056",
+      "name": "Kristoffer Reitan"
+    },
+    {
+      "player_id": "P057",
+      "name": "Denny McCarthy"
+    },
+    {
+      "player_id": "P058",
+      "name": "Lucas Glover"
+    },
+    {
+      "player_id": "P059",
+      "name": "Chris Kirk"
+    },
+    {
+      "player_id": "P060",
+      "name": "Brian Campbell"
+    },
+    {
+      "player_id": "P061",
+      "name": "Nicolas Echavarria"
+    },
+    {
+      "player_id": "P062",
+      "name": "Adam Scott"
+    },
+    {
+      "player_id": "P063",
+      "name": "Si Woo Kim"
+    },
+    {
+      "player_id": "P064",
+      "name": "Thriston Lawrence"
+    },
+    {
+      "player_id": "P065",
+      "name": "Jordan Spieth"
+    },
+    {
+      "player_id": "P066",
+      "name": "Bud Cauley"
+    },
+    {
+      "player_id": "P067",
+      "name": "Matt Wallace"
+    },
+    {
+      "player_id": "P068",
+      "name": "Laurie Canter"
+    },
+    {
+      "player_id": "P069",
+      "name": "Jacob Bridgeman"
+    },
+    {
+      "player_id": "P070",
+      "name": "Aldrich Potgieter"
+    },
+    {
+      "player_id": "P071",
+      "name": "Jon Rahm"
+    },
+    {
+      "player_id": "P072",
+      "name": "Chun-an Yu"
+    },
+    {
+      "player_id": "P073",
+      "name": "Tony Finau"
+    },
+    {
+      "player_id": "P074",
+      "name": "Michael Thorbjornsen"
+    },
+    {
+      "player_id": "P075",
+      "name": "Adrien Saddier"
+    },
+    {
+      "player_id": "P076",
+      "name": "Richard Hoey"
+    },
+    {
+      "player_id": "P077",
+      "name": "Garrick Higgo"
+    },
+    {
+      "player_id": "P078",
+      "name": "Christiaan Bezuidenhout"
+    },
+    {
+      "player_id": "P079",
+      "name": "Rickie Fowler"
+    },
+    {
+      "player_id": "P080",
+      "name": "Daniel Brown(Oct1994)"
+    },
+    {
+      "player_id": "P081",
+      "name": "Mackenzie Hughes"
+    },
+    {
+      "player_id": "P082",
+      "name": "Byeong Hun An"
+    },
+    {
+      "player_id": "P083",
+      "name": "Jhonattan Vegas"
+    },
+    {
+      "player_id": "P084",
+      "name": "Davis Thompson"
+    },
+    {
+      "player_id": "P085",
+      "name": "Tom McKibbin"
+    },
+    {
+      "player_id": "P086",
+      "name": "Haotong Li"
+    },
+    {
+      "player_id": "P087",
+      "name": "Tom Hoge"
+    },
+    {
+      "player_id": "P088",
+      "name": "Jake Knapp"
+    },
+    {
+      "player_id": "P089",
+      "name": "Neal Shipley"
+    },
+    {
+      "player_id": "P090",
+      "name": "Sahith Theegala"
+    },
+    {
+      "player_id": "P091",
+      "name": "Tom Kim"
+    },
+    {
+      "player_id": "P092",
+      "name": "Davis Riley"
+    },
+    {
+      "player_id": "P093",
+      "name": "Rasmus Neergaard-Petersen"
+    },
+    {
+      "player_id": "P094",
+      "name": "Stephan Jaeger"
+    },
+    {
+      "player_id": "P095",
+      "name": "Nicolai Hojgaard"
+    },
+    {
+      "player_id": "P096",
+      "name": "Emiliano Grillo"
+    },
+    {
+      "player_id": "P097",
+      "name": "Matti Schmid"
+    },
+    {
+      "player_id": "P098",
+      "name": "Jordan Smith"
+    },
+    {
+      "player_id": "P099",
+      "name": "John Parry"
+    },
+    {
+      "player_id": "P100",
+      "name": "Steven Fisk"
+    },
+    {
+      "player_id": "P101",
+      "name": "McClure Meissner"
+    },
+    {
+      "player_id": "P102",
+      "name": "Pierceson Coody"
+    },
+    {
+      "player_id": "P103",
+      "name": "Thorbjorn Olesen"
+    },
+    {
+      "player_id": "P104",
+      "name": "Erik van Rooyen"
+    },
+    {
+      "player_id": "P105",
+      "name": "Joe Highsmith"
+    },
+    {
+      "player_id": "P106",
+      "name": "Keita Nakajima"
+    },
+    {
+      "player_id": "P107",
+      "name": "Austin Eckroat"
+    },
+    {
+      "player_id": "P108",
+      "name": "William Mouw"
+    },
+    {
+      "player_id": "P109",
+      "name": "Joakim Lagergren"
+    },
+    {
+      "player_id": "P110",
+      "name": "Max McGreevy"
+    },
+    {
+      "player_id": "P111",
+      "name": "Mark Hubbard"
+    },
+    {
+      "player_id": "P112",
+      "name": "Eric Cole"
+    },
+    {
+      "player_id": "P113",
+      "name": "Kazuki Higa"
+    },
+    {
+      "player_id": "P114",
+      "name": "Gary Woodland"
+    },
+    {
+      "player_id": "P115",
+      "name": "Chandler Blanchet"
+    },
+    {
+      "player_id": "P116",
+      "name": "Vincent Whaley"
+    },
+    {
+      "player_id": "P117",
+      "name": "Shaun Norris"
+    },
+    {
+      "player_id": "P118",
+      "name": "Cameron Davis"
+    },
+    {
+      "player_id": "P119",
+      "name": "Keith Mitchell"
+    },
+    {
+      "player_id": "P120",
+      "name": "Victor Perez"
+    },
+    {
+      "player_id": "P121",
+      "name": "Ryo Hisatsune"
+    },
+    {
+      "player_id": "P122",
+      "name": "Joaquin Niemann"
+    },
+    {
+      "player_id": "P123",
+      "name": "Beau Hossler"
+    },
+    {
+      "player_id": "P124",
+      "name": "Patrick Fishburn"
+    },
+    {
+      "player_id": "P125",
+      "name": "Takumi Kanaya"
+    },
+    {
+      "player_id": "P126",
+      "name": "Sami Valimaki"
+    },
+    {
+      "player_id": "P127",
+      "name": "Max Homa"
+    },
+    {
+      "player_id": "P128",
+      "name": "Austin Smotherman"
+    },
+    {
+      "player_id": "P129",
+      "name": "Patrick Rodgers"
+    },
+    {
+      "player_id": "P130",
+      "name": "Alex Smalley"
+    },
+    {
+      "player_id": "P131",
+      "name": "Matt Kuchar"
+    },
+    {
+      "player_id": "P132",
+      "name": "Jesper Svensson"
+    },
+    {
+      "player_id": "P133",
+      "name": "Elvis Smylie"
+    },
+    {
+      "player_id": "P134",
+      "name": "Karl Vilips"
+    },
+    {
+      "player_id": "P135",
+      "name": "Kevin Roy"
+    },
+    {
+      "player_id": "P136",
+      "name": "Martin Couvra"
+    },
+    {
+      "player_id": "P137",
+      "name": "David Lipsky"
+    },
+    {
+      "player_id": "P138",
+      "name": "Christo Lamprecht"
+    },
+    {
+      "player_id": "P139",
+      "name": "Angel Ayora"
+    },
+    {
+      "player_id": "P140",
+      "name": "Kensei Hirata"
+    },
+    {
+      "player_id": "P141",
+      "name": "Justin Lower"
+    },
+    {
+      "player_id": "P142",
+      "name": "Nick Dunlap"
+    },
+    {
+      "player_id": "P143",
+      "name": "Taylor Moore"
+    },
+    {
+      "player_id": "P144",
+      "name": "Niklas Norgaard"
+    },
+    {
+      "player_id": "P145",
+      "name": "Emilio Gonzalez"
+    },
+    {
+      "player_id": "P146",
+      "name": "Jorge Campillo"
+    },
+    {
+      "player_id": "P147",
+      "name": "Eugenio Chacarra"
+    },
+    {
+      "player_id": "P148",
+      "name": "Adrien Dumont de Chassart"
+    },
+    {
+      "player_id": "P149",
+      "name": "Lee Hodges"
+    },
+    {
+      "player_id": "P150",
+      "name": "Scott Vincent"
+    },
+    {
+      "player_id": "P151",
+      "name": "Carlos Ortiz"
+    },
+    {
+      "player_id": "P152",
+      "name": "Luke Clanton"
+    },
+    {
+      "player_id": "P153",
+      "name": "Andy Sullivan"
+    },
+    {
+      "player_id": "P154",
+      "name": "Seonghyeon Kim"
+    },
+    {
+      "player_id": "P155",
+      "name": "Jayden Schaper"
+    },
+    {
+      "player_id": "P156",
+      "name": "JC Ritchie"
+    },
+    {
+      "player_id": "P157",
+      "name": "Doug Ghim"
+    },
+    {
+      "player_id": "P158",
+      "name": "Antoine Rozner"
+    },
+    {
+      "player_id": "P159",
+      "name": "Ewen Ferguson"
+    },
+    {
+      "player_id": "P160",
+      "name": "Richard T. Lee"
+    },
+    {
+      "player_id": "P161",
+      "name": "David Puig"
+    },
+    {
+      "player_id": "P162",
+      "name": "Grant Forrest"
+    },
+    {
+      "player_id": "P163",
+      "name": "Jacques Kruyswijk"
+    },
+    {
+      "player_id": "P164",
+      "name": "Trace Crowe(Oct1996)"
+    },
+    {
+      "player_id": "P165",
+      "name": "Matthieu Pavon"
+    },
+    {
+      "player_id": "P166",
+      "name": "Andrew Putnam"
+    },
+    {
+      "player_id": "P167",
+      "name": "Oliver Lindell"
+    },
+    {
+      "player_id": "P168",
+      "name": "Taehoon Ok"
+    },
+    {
+      "player_id": "P169",
+      "name": "Joost Luiten"
+    },
+    {
+      "player_id": "P170",
+      "name": "Taylor Montgomery"
+    },
+    {
+      "player_id": "P171",
+      "name": "Will Zalatoris"
+    },
+    {
+      "player_id": "P172",
+      "name": "Jackson Koivun(Am)"
+    },
+    {
+      "player_id": "P173",
+      "name": "Lanto Griffin"
+    },
+    {
+      "player_id": "P174",
+      "name": "Romain Langasque"
+    },
+    {
+      "player_id": "P175",
+      "name": "Harry Higgs"
+    },
+    {
+      "player_id": "P176",
+      "name": "Peter Uihlein"
+    },
+    {
+      "player_id": "P177",
+      "name": "Richard Mansell"
+    },
+    {
+      "player_id": "P178",
+      "name": "Jacob Skov Olesen"
+    },
+    {
+      "player_id": "P179",
+      "name": "Jackson Suber"
+    },
+    {
+      "player_id": "P180",
+      "name": "Matthew Jordan"
+    },
+    {
+      "player_id": "P181",
+      "name": "Kazuma Kobori"
+    },
+    {
+      "player_id": "P182",
+      "name": "Carson Young"
+    },
+    {
+      "player_id": "P183",
+      "name": "Matteo Manassero"
+    },
+    {
+      "player_id": "P184",
+      "name": "Seamus Power"
+    },
+    {
+      "player_id": "P185",
+      "name": "Hank Lebioda"
+    },
+    {
+      "player_id": "P186",
+      "name": "Hayden Springer"
+    },
+    {
+      "player_id": "P187",
+      "name": "Danny Walker"
+    },
+    {
+      "player_id": "P188",
+      "name": "Nicolai Von Dellingshausen"
+    },
+    {
+      "player_id": "P189",
+      "name": "Calum Hill"
+    },
+    {
+      "player_id": "P190",
+      "name": "Isaiah Salinda"
+    },
+    {
+      "player_id": "P191",
+      "name": "Sam Ryder"
+    },
+    {
+      "player_id": "P192",
+      "name": "David Law"
+    },
+    {
+      "player_id": "P193",
+      "name": "Junghwan Lee"
+    },
+    {
+      "player_id": "P194",
+      "name": "Jeffrey Kang"
+    },
+    {
+      "player_id": "P195",
+      "name": "Charley Hoffman"
+    },
+    {
+      "player_id": "P196",
+      "name": "Todd Clements"
+    },
+    {
+      "player_id": "P197",
+      "name": "Joel Dahmen"
+    },
+    {
+      "player_id": "P198",
+      "name": "Zachary Bauchou"
+    },
+    {
+      "player_id": "P199",
+      "name": "Daniel Hillier"
+    },
+    {
+      "player_id": "P200",
+      "name": "Davis Chatfield"
+    }
+  ],
+  "tournaments": [
+    {
+      "name": "Open Amateur",
+      "week": 1,
+      "difficulty": 0.45,
+      "purse": 200000,
+      "entry_fee": 200,
+      "reputation_reward": 3
+    },
+    {
+      "name": "Spring Classic",
+      "week": 2,
+      "difficulty": 0.47,
+      "purse": 220000,
+      "entry_fee": 220,
+      "reputation_reward": 3
+    },
+    {
+      "name": "Mountain Challenge",
+      "week": 3,
+      "difficulty": 0.5,
+      "purse": 240000,
+      "entry_fee": 240,
+      "reputation_reward": 4
+    },
+    {
+      "name": "Coastal Invitational",
+      "week": 4,
+      "difficulty": 0.52,
+      "purse": 260000,
+      "entry_fee": 260,
+      "reputation_reward": 4
+    },
+    {
+      "name": "Capital Open",
+      "week": 5,
+      "difficulty": 0.55,
+      "purse": 280000,
+      "entry_fee": 280,
+      "reputation_reward": 5
+    },
+    {
+      "name": "Heritage Cup",
+      "week": 6,
+      "difficulty": 0.57,
+      "purse": 300000,
+      "entry_fee": 300,
+      "reputation_reward": 5
+    },
+    {
+      "name": "Summer Trophy",
+      "week": 7,
+      "difficulty": 0.6,
+      "purse": 320000,
+      "entry_fee": 320,
+      "reputation_reward": 6
+    },
+    {
+      "name": "National Amateur",
+      "week": 8,
+      "difficulty": 0.62,
+      "purse": 340000,
+      "entry_fee": 340,
+      "reputation_reward": 6
+    },
+    {
+      "name": "Autumn Masters",
+      "week": 9,
+      "difficulty": 0.65,
+      "purse": 360000,
+      "entry_fee": 360,
+      "reputation_reward": 7
+    },
+    {
+      "name": "Season Championship",
+      "week": 10,
+      "difficulty": 0.68,
+      "purse": 400000,
+      "entry_fee": 400,
+      "reputation_reward": 8
+    },
+    {
+      "name": "Winter Warmup",
+      "week": 11,
+      "difficulty": 0.7,
+      "purse": 420000,
+      "entry_fee": 420,
+      "reputation_reward": 8
+    },
+    {
+      "name": "Highland Cup",
+      "week": 12,
+      "difficulty": 0.72,
+      "purse": 440000,
+      "entry_fee": 440,
+      "reputation_reward": 8
+    },
+    {
+      "name": "Desert Duel",
+      "week": 13,
+      "difficulty": 0.74,
+      "purse": 460000,
+      "entry_fee": 460,
+      "reputation_reward": 9
+    },
+    {
+      "name": "Riverbank Open",
+      "week": 14,
+      "difficulty": 0.76,
+      "purse": 480000,
+      "entry_fee": 480,
+      "reputation_reward": 9
+    },
+    {
+      "name": "Skyline Challenge",
+      "week": 15,
+      "difficulty": 0.78,
+      "purse": 500000,
+      "entry_fee": 500,
+      "reputation_reward": 10
+    },
+    {
+      "name": "Continental Trophy",
+      "week": 16,
+      "difficulty": 0.8,
+      "purse": 520000,
+      "entry_fee": 520,
+      "reputation_reward": 10
+    },
+    {
+      "name": "Legends Invitational",
+      "week": 17,
+      "difficulty": 0.82,
+      "purse": 540000,
+      "entry_fee": 540,
+      "reputation_reward": 11
+    },
+    {
+      "name": "World Amateur Finals",
+      "week": 18,
+      "difficulty": 0.85,
+      "purse": 580000,
+      "entry_fee": 580,
+      "reputation_reward": 12
+    },
+    {
+      "name": "Northern Lights Open",
+      "week": 19,
+      "difficulty": 0.87,
+      "purse": 600000,
+      "entry_fee": 600,
+      "reputation_reward": 12
+    },
+    {
+      "name": "Emerald Cup",
+      "week": 20,
+      "difficulty": 0.88,
+      "purse": 620000,
+      "entry_fee": 620,
+      "reputation_reward": 12
+    },
+    {
+      "name": "Cascadia Classic",
+      "week": 21,
+      "difficulty": 0.89,
+      "purse": 640000,
+      "entry_fee": 640,
+      "reputation_reward": 13
+    },
+    {
+      "name": "Atlantic Showdown",
+      "week": 22,
+      "difficulty": 0.9,
+      "purse": 660000,
+      "entry_fee": 660,
+      "reputation_reward": 13
+    },
+    {
+      "name": "Royal Links Invitational",
+      "week": 23,
+      "difficulty": 0.91,
+      "purse": 680000,
+      "entry_fee": 680,
+      "reputation_reward": 13
+    },
+    {
+      "name": "Golden State Pro-Am",
+      "week": 24,
+      "difficulty": 0.92,
+      "purse": 700000,
+      "entry_fee": 700,
+      "reputation_reward": 14
+    },
+    {
+      "name": "Frontier Challenge",
+      "week": 25,
+      "difficulty": 0.93,
+      "purse": 720000,
+      "entry_fee": 720,
+      "reputation_reward": 14
+    },
+    {
+      "name": "Liberty Championship",
+      "week": 26,
+      "difficulty": 0.94,
+      "purse": 740000,
+      "entry_fee": 740,
+      "reputation_reward": 15
+    },
+    {
+      "name": "Pacific Crown",
+      "week": 27,
+      "difficulty": 0.95,
+      "purse": 760000,
+      "entry_fee": 760,
+      "reputation_reward": 15
+    },
+    {
+      "name": "High Society Invitational",
+      "week": 28,
+      "difficulty": 0.96,
+      "purse": 780000,
+      "entry_fee": 780,
+      "reputation_reward": 16
+    },
+    {
+      "name": "Champion of Champions",
+      "week": 29,
+      "difficulty": 0.97,
+      "purse": 800000,
+      "entry_fee": 800,
+      "reputation_reward": 16
+    },
+    {
+      "name": "Globetrotter Open",
+      "week": 30,
+      "difficulty": 0.98,
+      "purse": 820000,
+      "entry_fee": 820,
+      "reputation_reward": 17
+    },
+    {
+      "name": "Continental Finals",
+      "week": 31,
+      "difficulty": 0.99,
+      "purse": 840000,
+      "entry_fee": 840,
+      "reputation_reward": 17
+    },
+    {
+      "name": "Grand Masters Cup",
+      "week": 32,
+      "difficulty": 1.0,
+      "purse": 860000,
+      "entry_fee": 860,
+      "reputation_reward": 18
+    },
+    {
+      "name": "Elite Series Event",
+      "week": 33,
+      "difficulty": 1.0,
+      "purse": 880000,
+      "entry_fee": 880,
+      "reputation_reward": 18
+    },
+    {
+      "name": "Summit Championship",
+      "week": 34,
+      "difficulty": 1.0,
+      "purse": 900000,
+      "entry_fee": 900,
+      "reputation_reward": 19
+    },
+    {
+      "name": "Galaxy Invitational",
+      "week": 35,
+      "difficulty": 1.0,
+      "purse": 920000,
+      "entry_fee": 920,
+      "reputation_reward": 19
+    },
+    {
+      "name": "World Tour Finale",
+      "week": 36,
+      "difficulty": 1.0,
+      "purse": 940000,
+      "entry_fee": 940,
+      "reputation_reward": 20
+    }
+  ]
+}

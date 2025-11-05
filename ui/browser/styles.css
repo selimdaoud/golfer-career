@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "IBM3270";
+  src: url("https://cdn.jsdelivr.net/gh/rbanffy/3270font/webfonts/3270-Regular.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/rbanffy/3270font/webfonts/3270-Regular.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: dark;
+  --bg: #0a0c15;
+  --fg: #f0f6ff;
+  --accent: #4cff9c;
+  --accent-blue: #3f88ff;
+  --danger: #ff5f67;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: "Segoe UI", Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: #11162a;
+  border-bottom: 1px solid rgba(63, 136, 255, 0.25);
+  color: var(--fg);
+  gap: 1rem;
+}
+
+.top-bar h1 {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 600;
+  flex: 1;
+}
+
+button {
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent));
+  border: none;
+  color: #02040a;
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 0 10px rgba(76, 255, 156, 0.2);
+}
+
+button:disabled {
+  background: #333;
+  cursor: not-allowed;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  padding: 0.5rem;
+  overflow: hidden;
+}
+
+#terminal-container {
+  flex: 1;
+  border: 1px solid #222;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #000;
+  display: flex;
+}
+
+#terminal {
+  flex: 1;
+}
+
+footer {
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  color: #9db4ff;
+  border-top: 1px solid rgba(63, 136, 255, 0.25);
+  background: #101324;
+  text-align: center;
+}
+
+.status-clock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: "IBM3270", "3270 Narrow", monospace;
+  color: var(--accent);
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+.status-clock .status-label {
+  letter-spacing: 0.08rem;
+}
+
+.status-clock .status-time {
+  font-size: 0.85rem;
+  color: var(--fg);
+}
+
+body.theme-mainframe {
+  background: radial-gradient(circle at top, #02132b, #00040a 60%);
+  color: #63ff8d;
+}
+
+body.theme-mainframe .top-bar {
+  background: #001937;
+  border-bottom: 1px solid #044b7b;
+  color: #63ff8d;
+}
+
+body.theme-mainframe .top-bar h1 {
+  color: #63ff8d;
+}
+
+body.theme-mainframe button {
+  background: #012d40;
+  border: 1px solid #63ff8d;
+  color: #63ff8d;
+  box-shadow: 0 0 6px rgba(99, 255, 141, 0.4);
+}
+
+body.theme-mainframe main {
+  background: transparent;
+}
+
+body.theme-mainframe #terminal-container {
+  border-color: #044b7b;
+  box-shadow: 0 0 15px rgba(15, 110, 180, 0.45);
+}
+
+body.theme-mainframe footer {
+  background: #001937;
+  border-top: 1px solid #044b7b;
+  color: #7defa5;
+}
+:root {

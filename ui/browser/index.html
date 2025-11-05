@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Golfer Career – Terminal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/xterm@5.3.0/css/xterm.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <h1>Golfer Career – Interface Terminal</h1>
+      <button id="restart-btn" type="button">Redémarrer</button>
+      <div class="status-clock">
+        <div class="status-label">PUB400</div>
+        <div class="status-time" id="status-time">--/--/-- --:--:-- UTC</div>
+      </div>
+    </header>
+    <main>
+      <div id="terminal-container">
+        <div id="terminal"></div>
+      </div>
+    </main>
+    <footer>
+      <p>Utilisez votre clavier pour interagir avec l'interface curses.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/xterm@5.3.0/lib/xterm.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xterm-addon-fit@0.8.0/lib/xterm-addon-fit.min.js"></script>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
