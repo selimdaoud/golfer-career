@@ -845,7 +845,7 @@
     {
       "name": "Open Amateur",
       "week": 1,
-      "difficulty": 0.45,
+      "difficulty": 0.65,
       "purse": 200000,
       "entry_fee": 200,
       "reputation_reward": 3
@@ -853,7 +853,7 @@
     {
       "name": "Spring Classic",
       "week": 2,
-      "difficulty": 0.47,
+      "difficulty": 0.67,
       "purse": 220000,
       "entry_fee": 220,
       "reputation_reward": 3
@@ -861,7 +861,7 @@
     {
       "name": "Mountain Challenge",
       "week": 3,
-      "difficulty": 0.5,
+      "difficulty": 0.72,
       "purse": 240000,
       "entry_fee": 240,
       "reputation_reward": 4
@@ -869,7 +869,7 @@
     {
       "name": "Coastal Invitational",
       "week": 4,
-      "difficulty": 0.52,
+      "difficulty": 0.74,
       "purse": 260000,
       "entry_fee": 260,
       "reputation_reward": 4
@@ -877,7 +877,7 @@
     {
       "name": "Capital Open",
       "week": 5,
-      "difficulty": 0.55,
+      "difficulty": 0.79,
       "purse": 280000,
       "entry_fee": 280,
       "reputation_reward": 5
@@ -885,7 +885,7 @@
     {
       "name": "Heritage Cup",
       "week": 6,
-      "difficulty": 0.57,
+      "difficulty": 0.82,
       "purse": 300000,
       "entry_fee": 300,
       "reputation_reward": 5
@@ -893,7 +893,7 @@
     {
       "name": "Summer Trophy",
       "week": 7,
-      "difficulty": 0.6,
+      "difficulty": 0.86,
       "purse": 320000,
       "entry_fee": 320,
       "reputation_reward": 6
@@ -901,7 +901,7 @@
     {
       "name": "National Amateur",
       "week": 8,
-      "difficulty": 0.62,
+      "difficulty": 0.89,
       "purse": 340000,
       "entry_fee": 340,
       "reputation_reward": 6
@@ -909,7 +909,7 @@
     {
       "name": "Autumn Masters",
       "week": 9,
-      "difficulty": 0.65,
+      "difficulty": 0.94,
       "purse": 360000,
       "entry_fee": 360,
       "reputation_reward": 7
@@ -917,7 +917,7 @@
     {
       "name": "Season Championship",
       "week": 10,
-      "difficulty": 0.68,
+      "difficulty": 0.98,
       "purse": 400000,
       "entry_fee": 400,
       "reputation_reward": 8
@@ -925,7 +925,7 @@
     {
       "name": "Winter Warmup",
       "week": 11,
-      "difficulty": 0.7,
+      "difficulty": 1.01,
       "purse": 420000,
       "entry_fee": 420,
       "reputation_reward": 8
@@ -933,7 +933,7 @@
     {
       "name": "Highland Cup",
       "week": 12,
-      "difficulty": 0.72,
+      "difficulty": 1.03,
       "purse": 440000,
       "entry_fee": 440,
       "reputation_reward": 8
@@ -941,7 +941,7 @@
     {
       "name": "Desert Duel",
       "week": 13,
-      "difficulty": 0.74,
+      "difficulty": 1.07,
       "purse": 460000,
       "entry_fee": 460,
       "reputation_reward": 9
@@ -949,7 +949,7 @@
     {
       "name": "Riverbank Open",
       "week": 14,
-      "difficulty": 0.76,
+      "difficulty": 1.09,
       "purse": 480000,
       "entry_fee": 480,
       "reputation_reward": 9
@@ -957,7 +957,7 @@
     {
       "name": "Skyline Challenge",
       "week": 15,
-      "difficulty": 0.78,
+      "difficulty": 1.13,
       "purse": 500000,
       "entry_fee": 500,
       "reputation_reward": 10
@@ -965,7 +965,7 @@
     {
       "name": "Continental Trophy",
       "week": 16,
-      "difficulty": 0.8,
+      "difficulty": 1.15,
       "purse": 520000,
       "entry_fee": 520,
       "reputation_reward": 10
@@ -973,7 +973,7 @@
     {
       "name": "Legends Invitational",
       "week": 17,
-      "difficulty": 0.82,
+      "difficulty": 1.18,
       "purse": 540000,
       "entry_fee": 540,
       "reputation_reward": 11
@@ -981,7 +981,7 @@
     {
       "name": "World Amateur Finals",
       "week": 18,
-      "difficulty": 0.85,
+      "difficulty": 1.22,
       "purse": 580000,
       "entry_fee": 580,
       "reputation_reward": 12
@@ -989,7 +989,7 @@
     {
       "name": "Northern Lights Open",
       "week": 19,
-      "difficulty": 0.87,
+      "difficulty": 1.25,
       "purse": 600000,
       "entry_fee": 600,
       "reputation_reward": 12
@@ -997,7 +997,7 @@
     {
       "name": "Emerald Cup",
       "week": 20,
-      "difficulty": 0.88,
+      "difficulty": 1.27,
       "purse": 620000,
       "entry_fee": 620,
       "reputation_reward": 12
@@ -1005,7 +1005,7 @@
     {
       "name": "Cascadia Classic",
       "week": 21,
-      "difficulty": 0.89,
+      "difficulty": 1.28,
       "purse": 640000,
       "entry_fee": 640,
       "reputation_reward": 13
@@ -1013,7 +1013,7 @@
     {
       "name": "Atlantic Showdown",
       "week": 22,
-      "difficulty": 0.9,
+      "difficulty": 1.3,
       "purse": 660000,
       "entry_fee": 660,
       "reputation_reward": 13
@@ -1021,7 +1021,7 @@
     {
       "name": "Royal Links Invitational",
       "week": 23,
-      "difficulty": 0.91,
+      "difficulty": 1.31,
       "purse": 680000,
       "entry_fee": 680,
       "reputation_reward": 13
@@ -1029,7 +1029,7 @@
     {
       "name": "Golden State Pro-Am",
       "week": 24,
-      "difficulty": 0.92,
+      "difficulty": 1.32,
       "purse": 700000,
       "entry_fee": 700,
       "reputation_reward": 14
@@ -1037,7 +1037,7 @@
     {
       "name": "Frontier Challenge",
       "week": 25,
-      "difficulty": 0.93,
+      "difficulty": 1.34,
       "purse": 720000,
       "entry_fee": 720,
       "reputation_reward": 14
@@ -1045,7 +1045,7 @@
     {
       "name": "Liberty Championship",
       "week": 26,
-      "difficulty": 0.94,
+      "difficulty": 1.36,
       "purse": 740000,
       "entry_fee": 740,
       "reputation_reward": 15
@@ -1053,7 +1053,7 @@
     {
       "name": "Pacific Crown",
       "week": 27,
-      "difficulty": 0.95,
+      "difficulty": 1.37,
       "purse": 760000,
       "entry_fee": 760,
       "reputation_reward": 15
@@ -1061,7 +1061,7 @@
     {
       "name": "High Society Invitational",
       "week": 28,
-      "difficulty": 0.96,
+      "difficulty": 1.38,
       "purse": 780000,
       "entry_fee": 780,
       "reputation_reward": 16
@@ -1069,7 +1069,7 @@
     {
       "name": "Champion of Champions",
       "week": 29,
-      "difficulty": 0.97,
+      "difficulty": 1.39,
       "purse": 800000,
       "entry_fee": 800,
       "reputation_reward": 16
@@ -1077,7 +1077,7 @@
     {
       "name": "Globetrotter Open",
       "week": 30,
-      "difficulty": 0.98,
+      "difficulty": 1.42,
       "purse": 820000,
       "entry_fee": 820,
       "reputation_reward": 17
@@ -1085,7 +1085,7 @@
     {
       "name": "Continental Finals",
       "week": 31,
-      "difficulty": 0.99,
+      "difficulty": 1.43,
       "purse": 840000,
       "entry_fee": 840,
       "reputation_reward": 17
@@ -1093,7 +1093,7 @@
     {
       "name": "Grand Masters Cup",
       "week": 32,
-      "difficulty": 1.0,
+      "difficulty": 2.16,
       "purse": 860000,
       "entry_fee": 860,
       "reputation_reward": 18
@@ -1101,7 +1101,7 @@
     {
       "name": "Elite Series Event",
       "week": 33,
-      "difficulty": 1.0,
+      "difficulty": 2.16,
       "purse": 880000,
       "entry_fee": 880,
       "reputation_reward": 18
@@ -1109,7 +1109,7 @@
     {
       "name": "Summit Championship",
       "week": 34,
-      "difficulty": 1.0,
+      "difficulty": 2.16,
       "purse": 900000,
       "entry_fee": 900,
       "reputation_reward": 19
@@ -1117,7 +1117,7 @@
     {
       "name": "Galaxy Invitational",
       "week": 35,
-      "difficulty": 1.0,
+      "difficulty": 2.88,
       "purse": 920000,
       "entry_fee": 920,
       "reputation_reward": 19
@@ -1125,7 +1125,7 @@
     {
       "name": "World Tour Finale",
       "week": 36,
-      "difficulty": 1.0,
+      "difficulty": 2.88,
       "purse": 940000,
       "entry_fee": 940,
       "reputation_reward": 20

@@ -55,6 +55,17 @@ L'état de la partie hors sessions navigateur est stocké dans `data/state.json`
 Chaque tournoi définit son `entry_fee` (frais d'inscription) en plus du `purse`. Une valeur par défaut peut être fournie dans la section `tournament` si une épreuve ne précise pas de frais spécifiques.
 Les sessions lancées depuis le navigateur utilisent des fichiers temporaires distincts et sont détruites automatiquement à la fermeture du terminal embarqué.
 
+## Gestion de la forme
+
+L'indice de forme du joueur démarre avec la valeur définie dans `data/config.json` et reste borné entre 0 et 100. Il évolue ainsi :
+
+- chaque séance d'entraînement ajoute `+1` point de forme ;
+- une semaine de repos ajoute `+form_gain` (7 par défaut) tout en réduisant les fatigues ;
+- après un tournoi, la forme gagne d'abord les points de réputation positive, puis subit un malus fixe de 5 points pour refléter la casse post-compétition ;
+- les discussions avec l'agent n'ont pas d'effet direct sur la forme.
+
+Pendant la simulation d'un tournoi, la forme influence le score attendu via un bonus `(forme - 50) * 0,03`, ce qui améliore les performances lorsque le joueur est en confiance et les dégrade lorsqu'il est à plat.
+
 ## Tests
 
 ```bash

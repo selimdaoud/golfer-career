@@ -213,11 +213,17 @@ class SimulationEngine:
         self.state.golfer.reputation = max(0, self.state.golfer.reputation + reputation_gain)
         self.state.golfer.form = min(100, self.state.golfer.form + max(reputation_gain, 0))
 
+        form_penalty_value = min(5, max(0, self.state.golfer.form))
+        if form_penalty_value:
+            self.state.golfer.form = max(0, self.state.golfer.form - form_penalty_value)
+
         motivation_delta = self._compute_motivation_from_tournament(net_money, reputation_gain, rules)
         actual_motivation_delta = self._adjust_motivation(motivation_delta)
 
         if actual_motivation_delta:
             message = f"{message} Motivation {'+' if actual_motivation_delta > 0 else ''}{actual_motivation_delta}."
+        if form_penalty_value:
+            message = f"{message} Forme -{form_penalty_value}."
         final_message = self._augment_tournament_message(message, entry_fee, net_money)
         final_message = self._add_result_to_message(final_message, simulation["position"])
         final_message = self._append_round_summary(final_message, simulation["round_summary"])
