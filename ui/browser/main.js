@@ -1,6 +1,7 @@
 const terminalContainer = document.getElementById("terminal");
 const restartBtn = document.getElementById("restart-btn");
 const statusTimeEl = document.getElementById("status-time");
+const macroButtons = Array.from(document.querySelectorAll(".macro-grid button"));
 
 const baseTheme = {
   fontFamily: "Fira Code, Menlo, monospace",
@@ -207,7 +208,10 @@ restartBtn.addEventListener("click", () => {
   connect();
 });
 
-term.onData((data) => {
+function handleInput(data) {
+  if (!data) {
+    return;
+  }
   if (data.toLowerCase() === "t") {
     usingMainframeTheme = !usingMainframeTheme;
     applyTheme(usingMainframeTheme ? tn3270Theme : baseTheme);
@@ -227,6 +231,10 @@ term.onData((data) => {
       }),
     );
   }
+}
+
+term.onData((data) => {
+  handleInput(data);
 });
 
 term.onResize(({ cols, rows }) => {
@@ -243,6 +251,19 @@ term.onResize(({ cols, rows }) => {
 
 window.addEventListener("resize", () => {
   fitTerminal();
+});
+
+macroButtons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const key = btn.dataset.key;
+    if (!key) return;
+    term.focus();
+    if (key === "enter") {
+      handleInput("\r");
+    } else {
+      handleInput(key);
+    }
+  });
 });
 
 term.open(terminalContainer);
